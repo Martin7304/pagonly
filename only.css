@@ -320,8 +320,10 @@ ul{
         width: 100%;
     }
     #imgconjuntos{
-        width: 80% !important;
+        width: 300px;
+        height: 250px;
     }
+
 
 
 }
