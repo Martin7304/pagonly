@@ -319,6 +319,9 @@ ul{
     .todoslosproductos{
         width: 100%;
     }
+    #imgconjuntos{
+        width: 80% !important;
+    }
 
 
 }
