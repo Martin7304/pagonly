@@ -282,18 +282,45 @@ ul{
 
 
 
-@media (max-width: 700px){
+@media (max-width: 1000px){
     nav{
         flex-direction: column;
     }
 
+
     .preguntas{
         flex-direction: column;
     }
+
+
     #parafo1{
         flex-direction: column;
         width: 80%;
     }
+
+    .padreconjuntos{
+        flex-direction: column;
+        
+    }
+    .conjuntosnenes{
+        width: 100%;
+    }
+    .conjuntosnenas{
+        width: 100%;
+    }
+
+
+    .generalproductos{
+        flex-direction: column;
+    }
+    .clastodaslasimg{
+        width: 100%;
+    }
+    .todoslosproductos{
+        width: 100%;
+    }
+
+
 }
 img{
     width: 50%;
