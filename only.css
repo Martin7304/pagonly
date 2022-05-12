@@ -300,7 +300,6 @@ ul{
 
     .padreconjuntos{
         flex-direction: column;
-        margin: -10px;
         
     }
     .conjuntosnenes{
@@ -323,6 +322,13 @@ ul{
     #imgconjuntos{
         width: 300px;
         height: 250px;
+    }
+
+    .presentacion{
+    
+    }
+    .armatuconjunto{
+        margin-right: 7px;
     }
 
 }
