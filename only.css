@@ -118,48 +118,36 @@ nav{
     padding: 30px;
 }
 
-
-.generalproductos{/*CONTENEDOR MAS DRANDE, CONTIENE 2 IMAGENES*/
+.container{
     display: flex;
-    background-color: #ceedda;
-    border-width: 3px;
-    border-color: black;
-    border-style: solid;
-    border-radius: 10%;
-    margin: 0px -7px 3px -7px;
-}
-
-
-.todoslosproductos{ /*PARA MODIFICAR LOS TITULOS Y LISTAS*/
-    width: 50%;
     text-align: center;
 }
-
-
-.clastodaslasimg{/*PARA MODIFICAR LAS IMAGENES DESDE UNA CLASE*/
-    width: 50%;
-    text-align: center;
-}
-
-
-#todaslasimagenes{/*PARA MODIFICAR LAS IMAGENES DESDE UNA UN ID*/
+#todaslasimagenes{
     width: 250px;
-    height: 150px;
-    border-radius: 30%;
+    height: 200px;
+}
+.container1{
+    width: 50%;
     border-width: 3px;
     border-color: black;
-    border-style: solid;
-    margin: 5px;
+    border-style: double;
+    border-radius: 15%;
+    margin: 10px;
+    background-color: #ceedda;
 }
 
 
-.ulproductos{
-    text-align: center;
-}
 
 
-ul{
-    display: inline-block;
+
+
+@media (max-width: 1000px){
+    .container{
+        display: block;
+    }
+    .container1{
+        width: 100%;
+    }
 }
 
 /*FIN DE SECCION PRODUCTOS*/
@@ -329,6 +317,8 @@ ul{
         margin-right: 7px;
     }
 
+    
+
 }
 img{
     width: 50%;
@@ -342,42 +332,3 @@ img{
 
 
 
-
-
-
-
-
-
-
-
-.container{
-    display: flex;
-    text-align: center;
-}
-#todaslasimagenes{
-    width: 250px;
-    height: 200px;
-}
-.container1{
-    width: 50%;
-    border-width: 3px;
-    border-color: black;
-    border-style: double;
-    border-radius: 15%;
-    margin: 10px;
-    background-color: #ceedda;
-}
-
-
-
-
-
-
-@media (max-width: 1000px){
-    .container{
-        display: block;
-    }
-    .container1{
-        width: 100%;
-    }
-}
