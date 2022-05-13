@@ -337,3 +337,47 @@ img{
 .armatuconjunto{
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container{
+    display: flex;
+    text-align: center;
+}
+#todaslasimagenes{
+    width: 250px;
+    height: 200px;
+}
+.container1{
+    width: 50%;
+    border-width: 3px;
+    border-color: black;
+    border-style: double;
+    border-radius: 15%;
+    margin: 10px;
+    background-color: #ceedda;
+}
+
+
+
+
+
+
+@media (max-width: 1000px){
+    .container{
+        display: block;
+    }
+    .container1{
+        width: 100%;
+    }
+}
