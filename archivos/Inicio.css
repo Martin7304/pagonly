@@ -1,0 +1,100 @@
+/*INICIOOOOOOOOOOOO*/
+.presentacion{
+    text-align: center;
+    background-color:  lightblue;
+    border-width: 0px 0px 5px 0px;
+    border-color: black;
+    border-style: solid;
+    margin: -10px -10px 0px -10px;
+}
+
+
+#imgOnly{
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    border-radius:50%;
+    width: 60%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 150px;    
+}
+
+
+nav{
+    background-color: lightblue;
+    margin: -3px -10px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;  
+}
+
+
+#enlaces{
+    background-color: bisque;
+    padding: 20px 80px;
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+
+#enlaces:hover{
+    background-color: lightblue;
+}
+
+
+#enlaces:active{
+    background-color: rgb(255, 255, 255);
+}
+
+
+.preguntas{
+    display: flex;
+    background-color: lightblue;
+    border-width: 5px;
+    border-color: black;
+    border-style: double;
+    padding: 10px;
+    margin: -7px -10px;
+    text-align: center;
+}
+
+
+#parafo1{
+    padding: 15px;
+    margin: 15px;
+    border-width: 3px;
+    border-color: black;
+    border-style: double;
+    border-radius: 20%;
+    background-color: rgb(255, 255, 255);
+}
+
+
+#parafo2{
+    padding: 15px;
+    margin: 15px;
+    border-width: 3px;
+    border-color: black;
+    border-style: double;
+    border-radius: 20%;
+    background-color: rgb(255, 255, 255);
+}
+
+
+#parafo3{
+    padding: 15px;
+    margin: 15px;
+    border-width: 3px;
+    border-color: black;
+    border-style: double;
+    border-radius: 20%;
+    background-color: rgb(255, 255, 255);
+}
+/*FIIIIIN INICIOOOOOOOOOOOO*/
+
+
