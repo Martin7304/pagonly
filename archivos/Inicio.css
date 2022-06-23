@@ -5,7 +5,7 @@
     border-width: 0px 0px 5px 0px;
     border-color: black;
     border-style: solid;
-    margin: -10px -10px 0px -10px;
+    margin: -10px 0px 0px -10px;
 }
 
 
@@ -14,7 +14,7 @@
     border-color: black;
     border-style: solid;
     border-radius:50%;
-    width: 60%;
+    width: 40%;
     margin-top: 15px;
     margin-bottom: 15px;
     height: 150px;    
@@ -23,10 +23,14 @@
 
 nav{
     background-color: lightblue;
-    margin: -3px -10px;
+    margin: -4px -10px 5px -10px;
     padding: 40px;
     display: flex;
     justify-content: space-around;  
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    
 }
 
 
@@ -96,6 +100,92 @@ nav{
     border-radius: 20%;
     background-color: rgb(255, 255, 255);
 }
+
+
+
+/* INICIO DE EDICION BOOTSTRAP */
+
+#carouselExampleIndicators{
+    display: none;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+}
+
+.dropdown{
+    background-color: bisque;
+    padding: 20px 80px;
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 15%;
+}
+#dropdownMenuButton1{
+    background-color: bisque;
+    border: none;
+}
+.accordion{
+    display: none;
+    border-width: 3px;
+    border-color: lightblue;
+    border-style: solid;
+    margin-top: -10px;
+    
+}
+.accordion-body{
+    background-color: white;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+#flush-headingOne{
+    background-color: lightblue;
+    
+}
+#flush-headingTwo{
+    background-color: lightblue;
+  
+}
+#flush-headingThree{
+    background-color: lightblue;
+    
+}
+#accordionFlushExample{
+    padding: 10px;
+    background-color: lightblue;
+
+    
+}
+button{
+    background-color: bisque;
+}
+
+
+/* FIN DE EDICION BOOTSTRAP */
+
+
 /*FIIIIIN INICIOOOOOOOOOOOO*/
 
 
+@media (max-width: 1000px){
+    #imgOnly{
+        width: 80%;
+    }
+    #carouselExampleIndicators{
+        display: block;
+    }
+    .preguntas{
+        display: none;
+    }
+    .accordion{
+        display: block;
+        text-align: center;
+    }
+    nav{
+        margin: -4px 0px 10px -10px;
+    }
+}
